@@ -78,12 +78,12 @@ while not game_over:
         else:
             display += "_"
     
+    print("Word to guess: " + display)
+
     #if display is equal to the word, so finish the program
     if display == chosen_word:
         #loop end
         game_over = True
         print("***********YOU WIN***********")
-
-    print(display)
 
     print(stages[lives])
